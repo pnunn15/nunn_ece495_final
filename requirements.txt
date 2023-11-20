@@ -1,0 +1,6 @@
+optimum
+diffusers
+IPython
+optimum-intel
+openvino
+onnx

@@ -4,3 +4,5 @@ IPython
 optimum-intel
 openvino
 onnx
+uvicorn
+fastapi

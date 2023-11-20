@@ -1,6 +1,6 @@
 """Serve StableDiffusion v1.5 with FastAPI
-* Run: uvicorn diffusion_fastapi:app --host 0.0.0.0 --port 5858 --reload
-* Call: curl -o myimage.jpg "http://localhost:5858/generate_img?prompt=outerspace"
+* Run: uvicorn genimg:app --host 0.0.0.0 --port 2626
+* Call: curl -o myimage.jpg "http://localhost:2626/generate_img?prompt=outerspace"
 """
 from optimum.intel.openvino import OVStableDiffusionPipeline
 from diffusers.training_utils import set_seed

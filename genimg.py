@@ -1,5 +1,6 @@
 """Serve StableDiffusion v1.5 with FastAPI
 * Run: uvicorn genimg:app --host 0.0.0.0 --port 2626
+* Run Docker Image: docker run --rm -p 2626:2626 -v /stable-diffusion-pokemons-tome-quantized:/app/stable-diffusion-pokemons-tome-quantized <img>
 * Call: curl -o myimage.jpg "http://localhost:2626/generate_img?prompt=outerspace
 """
 from optimum.intel.openvino import OVStableDiffusionPipeline

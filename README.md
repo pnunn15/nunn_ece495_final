@@ -6,8 +6,9 @@ Runs a quantized Stable Diffusion model trained on Pokemon images. The model is 
 
 ### Easy to run with Docker
 
-1. Clone stable-diffusion-pokemons-tome-quantized
+1. Clone stable-diffusion-pokemons-tome-quantized using Git LFS
 ```bash
+git lfs install
 git clone https://huggingface.co/OpenVINO/stable-diffusion-pokemons-tome-quantized
 ```
 2. Pull the baseline docker image

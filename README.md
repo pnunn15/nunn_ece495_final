@@ -19,6 +19,10 @@ docker pull intel/intel-optimized-pytorch
 ```bash
 docker build -t <img_name>:<version> .
 ```
+OR, pull the pre-built docker image
+```bash
+docker pull pnunn47/nunn_ece495_final
+```
 4. Run with the following command. Be sure to update the source directory for the volume mount to the location where you cloned the model.
 ```bash
 docker run --rm -p 2626:2626 -v /stable-diffusion-pokemons-tome-quantized:/app/stable-diffusion-pokemons-tome-quantized <img>

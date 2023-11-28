@@ -9,7 +9,7 @@ RUN pip install -r ./requirements.txt --no-cache-dir
 # COPY stable-diffusion-pokemons-tome-quantized/ .
 COPY genimg.py .
 
-ENV PYTHONUNBUFFERED=1
+# ENV PYTHONUNBUFFERED=1
 
 EXPOSE 2626
 

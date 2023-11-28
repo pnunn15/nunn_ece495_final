@@ -21,7 +21,7 @@ docker build -t <img_name>:<version> .
 ```
 OR, pull the pre-built docker image
 ```bash
-docker pull pnunn47/nunn_ece495_final
+docker pull pnunn47/nunn_ece495_final:async
 ```
 4. Run with the following command. Be sure to update the source directory for the volume mount to the location where you cloned the model.
 ```bash
